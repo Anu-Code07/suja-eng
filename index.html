@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///Users/srishtiv/Downloads/Engagement_Invitation_Edited.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engagement Invitation</title>
+  <link href="./Engagement Invitation Suja_files/css2" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      background: linear-gradient(to bottom right, #ffe0ec, #fff5f0);
+      background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+      margin: 0;
+      padding: 20px;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    h2.emoji {
+      font-family: 'Allura', cursive;
+      font-size: 36px;
+    }
+
+    h2, p {
+      margin: 0.5em 0;
+    }
+
+    .question, .welcome, .invitation-card {
+      margin-top: 20px;
+      animation: fadeInUp 1s ease-in-out;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .answer-button {
+      font-family: 'Playfair Display', serif;
+      padding: 12px 18px;
+      font-size: 16px;
+      margin: 8px auto;
+      cursor: pointer;
+      border: none;
+      background-color: #ffb6c1;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.2s;
+      width: 80%;
+      max-width: 250px;
+      display: block;
+    }
+
+    .answer-button:hover {
+      background-color: #ff8fa3;
+      transform: scale(1.05);
+    }
+
+    .invitation-card {
+      display: none;
+      margin-top: 30px;
+      padding: 20px;
+      border: 2px solid #d4af37;
+      border-radius: 16px;
+      background: linear-gradient(to bottom right, #d0eaff, #fff9c4);
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      animation: popIn 1s ease-in-out;
+      box-sizing: border-box;
+    }
+
+    .highlight {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 24px;
+      color: #c2185b;
+    }
+
+    .invitation-card h2.emoji {
+      font-family: 'Dancing Script', cursive;
+      font-size: 32px;
+    }
+
+    .invitation-card p,
+    .invitation-card h3 {
+      font-family: 'Merriweather', serif;
+    }
+
+    .decorative {
+      width: 60px;
+      margin: 20px auto;
+      animation: pulse 2s infinite;
+    }
+
+    .emoji {
+      font-size: 32px;
+    }
+
+    .floating-heart {
+      position: fixed;
+      top: 100%;
+      font-size: 20px;
+      animation: floatUp 5s infinite;
+      color: #e91e63;
+      pointer-events: none;
+    }
+
+    .eight-fly {
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      color: #c2185b;
+      animation: flyToDate 1s forwards;
+      pointer-events: none;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes popIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-120vh) scale(1.5); opacity: 0; }
+    }
+
+    @keyframes flyToDate {
+      0% { left: 50%; top: 250px; transform: translateX(-50%) scale(1); opacity: 1; }
+      100% { left: 50%; top: 380px; transform: translateX(-50%) scale(1.4); opacity: 0; }
+    }
+
+    /* Mobile Responsive Styles */
+    @media screen and (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      h2.emoji {
+        font-size: 28px;
+      }
+
+      .highlight {
+        font-size: 20px;
+      }
+
+      .answer-button {
+        width: 90%;
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+
+      .invitation-card {
+        padding: 15px;
+        max-width: 95%;
+      }
+
+      .invitation-card h2.emoji {
+        font-size: 24px;
+      }
+
+      .invitation-card p {
+        font-size: 14px;
+        margin: 0.3em 0;
+      }
+
+      .decorative {
+        width: 50px;
+      }
+
+      .floating-heart {
+        font-size: 16px;
+      }
+
+      .eight-fly {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      h2.emoji {
+        font-size: 24px;
+      }
+
+      .highlight {
+        font-size: 18px;
+      }
+
+      .answer-button {
+        width: 95%;
+        padding: 8px 12px;
+        font-size: 13px;
+      }
+
+      .invitation-card {
+        padding: 12px;
+      }
+
+      .invitation-card h2.emoji {
+        font-size: 20px;
+      }
+
+      .invitation-card p {
+        font-size: 13px;
+      }
+
+      .decorative {
+        width: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="question">
+    <h2 class="emoji">🤔 Where did Sid &amp; Suja meet? </h2>
+    <button class="answer-button" onclick="checkAnswer(&#39;In Mumbai&#39;)">In Mumbai</button>
+    <button class="answer-button" onclick="checkAnswer(&#39;in the office&#39;)">in the office</button>
+    <button class="answer-button" id="correctBtn" onclick="checkAnswer(&#39;in MBA&#39;)">in MBA</button>
+    <button class="answer-button" onclick="checkAnswer(&#39;in school&#39;)">in school</button>
+  </div>
+
+  <div class="welcome" id="welcomeMessage" style="display: block;">
+    <p class="highlight">🎉 Save the Date for June <span id="dateEight">8</span>, 2025 🎉</p>
+  </div>
+
+  <div class="invitation-card" id="invitationCard" style="display: block;">
+    <h2 class="emoji">💍 You're Invited! 💍</h2>
+    <p>Join us in celebrating the engagement of</p>
+    <h3 style="color:#c2185b;">Siddharth &amp; Sujanitha</h3>
+    <p>On <strong>Sunday, June <span id="dateEight2">8</span>, 2025</strong></p>
+    <p>📍 <em>MPH, Stilt level, Oberoi Splendor, Jogeshwari East, Mumbai</em></p>
+    <p>🕕 <em>10:00 AM onwards (followed by lunch)</em></p>
+    <p>We look forward to sharing this special day with you! 💖</p>
+    <div style="display: flex; justify-content: center;">
+      <img class="decorative"  width="200px" src="https://i.imghippo.com/files/LYKo5808rkI.png" alt="Romantic Cartoon Couple">
+    </div>
+  </div>
+
+  <script>
+    function checkAnswer(value) {
+      if (value === 'in MBA') {
+        animateEight();
+        setTimeout(() => {
+          document.getElementById('welcomeMessage').style.display = 'block';
+          document.getElementById('invitationCard').style.display = 'block';
+          createFloatingHearts();
+        }, 1200);
+      } else {
+        alert("Oops! Try again.");
+      }
+    }
+
+    function animateEight() {
+      const btn = document.getElementById('correctBtn');
+      const rect = btn.getBoundingClientRect();
+      const fly = document.createElement('div');
+      fly.textContent = 'MBA';
+      fly.className = 'eight-fly';
+      fly.style.left = rect.left + rect.width / 2 + 'px';
+      fly.style.top = rect.top + window.scrollY + 'px';
+      document.body.appendChild(fly);
+      setTimeout(() => fly.remove(), 1200);
+    }
+
+    function createFloatingHearts() {
+      for (let i = 0; i < 12; i++) {
+        let heart = document.createElement('div');
+        heart.classList.add('floating-heart');
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.animationDuration = (4 + Math.random() * 2) + 's';
+        heart.innerHTML = '❤️';
+        document.body.appendChild(heart);
+        setTimeout(() => heart.remove(), 6000);
+      }
+    }
+  </script>
+
+
+</body></html>
